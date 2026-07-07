@@ -305,7 +305,8 @@ ________________________________________
 
 📷 Dashboard Preview
 
-[Uploading Screenshot Dashboard Credit Assessment Power BI.jpeg…]()
+<img width="932" height="730" alt="Screenshot Dashboard Credit Assessment Power BI" src="https://github.com/user-attachments/assets/b9b1643b-f1b6-4ea9-a8a1-e0a9a896eb9f" />
+
  
 Images/
 │── Credit Risk Dashboard.png
