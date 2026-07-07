@@ -323,7 +323,7 @@ Credit-Risk-Assessment/
 │
 
 ├── SQL/
-│   └── Credit Risk Queries.sql
+│   └── Credit Risk Queries screenshot.png
 │
 
 ├── Power BI/
