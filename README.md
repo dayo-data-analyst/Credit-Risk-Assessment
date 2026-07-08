@@ -325,7 +325,7 @@ Credit-Risk-Assessment/
 │
 
 ├── SQL/
-│   └── Credit Risk Queries screenshot.png
+│   └── Screenshot SQL Extraction.png
 │
 
 ├── Power BI/
