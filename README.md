@@ -99,9 +99,11 @@ ________________________________________
 
 •	Validated dataset integrity
 
+<img width="941" height="598" alt="Screenshot_SQL_Extraction" src="https://github.com/user-attachments/assets/7061a731-ff18-46a1-9740-19abce5a03a5" />
+
 ______________________________________
 
-2️⃣ Data Preparation
+2️⃣ Data Preparation (Power BI)
 
 •	Removed inconsistencies
 
