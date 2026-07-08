@@ -1,5 +1,8 @@
 💳 Credit Risk Assessment & Loan Default Analysis
 
+<img width="932" height="730" alt="Dashboard_Screenshot" src="https://github.com/user-attachments/assets/a4b1bf8d-6292-49fe-b666-7cc64f1ce664" />
+
+
 📌 Project Overview
 
 This project presents an end-to-end Credit Risk Assessment & Loan Default Analysis using SQL and Microsoft Power BI. The objective is to analyse customer credit profiles, evaluate loan approval trends, identify high-risk borrowers, and provide actionable insights that support responsible lending decisions.
