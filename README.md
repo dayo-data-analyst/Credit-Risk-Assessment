@@ -397,7 +397,7 @@ I have B.Sc. in Accounting and strong experience in Business Intelligence, Finan
 
 📬 Connect with Me
 
-•	💼 LinkedIn: 
+•	💼 LinkedIn: https://www.linkedin.com/in/dayo-afariogun 
 
 •	💻 GitHub: https://github.com/dayo-data-analyst
 
