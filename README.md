@@ -1,412 +1,357 @@
-💳 Credit Risk Assessment & Loan Default Analysis
+# 💳 Credit Risk Assessment & Loan Default Analysis
+
+### SQL | Power BI | Financial Analytics | Risk Intelligence | Business Intelligence
 
 <img width="932" height="730" alt="Dashboard_Screenshot" src="https://github.com/user-attachments/assets/a4b1bf8d-6292-49fe-b666-7cc64f1ce664" />
 
+---
 
-📌 Project Overview
+# 📌 Executive Summary
 
-This project presents an end-to-end Credit Risk Assessment & Loan Default Analysis using SQL and Microsoft Power BI. The objective is to analyse customer credit profiles, evaluate loan approval trends, identify high-risk borrowers, and provide actionable insights that support responsible lending decisions.
-Using SQL for data extraction and Power BI for interactive visualisation, this project demonstrates how financial institutions can leverage data analytics to minimise credit risk, reduce loan defaults, and improve portfolio performance.
+Credit risk is one of the most significant challenges faced by financial institutions. Poor lending decisions can result in increased loan defaults, higher impairment losses, reduced profitability, and weaker capital positions.
 
-________________________________________
+This project demonstrates how SQL and Microsoft Power BI can be used to transform raw lending data into actionable credit risk intelligence.
 
-🎯 Business Problem
+Using structured loan and customer datasets, I analysed borrower profiles, credit scores, loan performance, repayment behaviour, income levels, debt obligations, and default patterns to develop an interactive executive dashboard that supports lending decisions, portfolio monitoring, and risk management.
 
-Financial institutions face the challenge of balancing loan growth with effective risk management. Poor lending decisions can lead to:
+The project demonstrates how data analytics enables financial institutions to minimise credit losses while improving portfolio quality and strategic decision-making.
 
-•	📉 Increased loan defaults
+---
 
-•	💰 Financial losses
+# 🎯 Business Problem
 
-•	⚠️ Higher credit risk exposure
+Financial institutions process thousands of loan applications every year.
 
-•	📊 Poor portfolio performance
+Without effective credit risk analytics, lenders face challenges such as:
 
-•	💼 Reduced profitability
+- Increasing loan defaults
+- Poor credit approval decisions
+- High portfolio risk
+- Rising impairment provisions
+- Reduced profitability
+- Poor visibility into borrower behaviour
 
-This project helps decision-makers identify credit risk patterns and improve lending strategies using data-driven insights.
+This project demonstrates how data analytics can help financial institutions identify high-risk borrowers before financial losses occur.
 
-________________________________________
+---
 
+# 🎯 Project Objectives
 
-🎯 Project Objectives
-The project aims to:
+The objectives of this project were to:
 
-•	📊 Assess customer credit risk
+- Assess customer creditworthiness
+- Analyse loan default behaviour
+- Evaluate credit score distributions
+- Monitor loan portfolio quality
+- Identify high-risk borrower segments
+- Analyse demographic risk patterns
+- Build an interactive executive dashboard
+- Provide strategic recommendations for credit risk management
 
-•	💳 Analyse loan approval and rejection trends
+---
 
-•	📈 Evaluate credit score distribution
+# 📂 Dataset Overview
 
-•	💵 Examine income and loan amount relationships
+The analysis combines customer information with lending data to provide a complete view of borrower behaviour.
 
-•	👥 Analyse borrower demographics
+The datasets include information relating to:
 
-•	📉 Identify factors contributing to loan defaults
+- Customer demographics
+- Credit score
+- Annual income
+- Employment status
+- Loan amount
+- Loan purpose
+- Interest rate
+- Loan status
+- Repayment history
+- Debt-to-income ratio
+- Credit history
+- Default status
 
-•	📊 Develop an interactive executive dashboard
+These variables enable a comprehensive assessment of credit risk across multiple borrower segments.
 
-________________________________________
+---
 
-🗂️ Dataset
+# 🛠️ Tools & Technologies
 
-The dataset contains customer financial and demographic information, including:
+| Technology | Purpose |
+|------------|----------|
+| SQL | Data extraction & querying |
+| SQL Server | Database management |
+| Microsoft Power BI | Dashboard development |
+| Power Query | Data transformation |
+| DAX | KPI calculations |
+| Data Modelling | Relationship management |
+| Interactive Visualisations | Executive reporting |
 
-•	Age
-
-•	Gender
-
-•	Annual Income
-
-•	Credit Score
-
-•	Loan Amount
-
-•	Years of Experience
-
-•	City
-
-•	Education
-
-•	Employment Type
-
-•	Loan Approved
-
-________________________________________
-
-🛠️ Tools & Technologies
-
-•	🗄️ SQL Server
-
-•	📊 Microsoft Power BI
-
-•	📈 DAX Measures
-
-•	🧹 Data Cleaning
-
-•	📉 Data Modelling
-
-•	📋 Business Intelligence Reporting
-
-•	📊 Dashboard Design
-
-________________________________________
-
-🔍 Project Workflow
-
-1️⃣ Data Extraction (SQL)
-
-•	Queried customer loan records
-
-•	Selected relevant financial variables
-
-•	Validated dataset integrity
+---
 
 <img width="941" height="598" alt="Screenshot_SQL_Extraction" src="https://github.com/user-attachments/assets/7061a731-ff18-46a1-9740-19abce5a03a5" />
 
-______________________________________
+# 🔄 Project Workflow
 
-2️⃣ Data Preparation (Power BI)
+```text
+Loan & Customer Database
+            │
+            ▼
+      SQL Data Extraction
+            │
+            ▼
+   Data Cleaning & Validation
+            │
+            ▼
+      Data Modelling
+            │
+            ▼
+      Power BI Dashboard
+            │
+            ▼
+Credit Risk Assessment
+            │
+            ▼
+Executive Insights & Recommendations
+```
 
-•	Removed inconsistencies
+---
 
-•	Checked missing values
+# 📊 Dashboard Overview
 
-•	Prepared data model
+<img width="932" height="730" alt="Dashboard_Screenshot" src="https://github.com/user-attachments/assets/a4b1bf8d-6292-49fe-b666-7cc64f1ce664" />
 
-•	Created calculated measures
+The dashboard provides executives with visibility into:
 
-_______________________________________
+- Loan Portfolio Overview
+- Customer Credit Profile
+- Credit Score Distribution
+- Default Rate Analysis
+- Loan Status
+- Income Analysis
+- Debt-to-Income Analysis
+- Regional Risk Distribution
+- Borrower Segmentation
+- Risk KPIs
 
-3️⃣ Data Analysis
+---
 
-Analysed:
+# 📈 Key Performance Indicators
 
-•	Loan approvals
+The dashboard monitors critical lending metrics, including:
 
-•	Loan defaults
+- Total Customers
+- Total Loan Portfolio
+- Average Credit Score
+- Default Rate
+- Average Loan Amount
+- Average Annual Income
+- High-Risk Customer Percentage
+- Debt-to-Income Ratio
+- Loan Approval Rate
 
-•	Credit score distribution
+These KPIs support continuous portfolio monitoring and informed lending decisions.
 
-•	Income distribution
+---
 
-•	Loan amount trends
+# ❓ Business Questions Answered
 
-•	Employment analysis
+The analysis answers several strategic questions, including:
 
-•	Debt-to-income ratio
+- Which borrower segments present the highest default risk?
+- How does credit score influence loan performance?
+- Does income level affect repayment behaviour?
+- Which age groups are associated with higher credit risk?
+- Which loan purposes carry the greatest default rates?
+- Which customers should receive additional credit review?
+- How can lending policies reduce portfolio risk?
 
-•	Interest rates
+---
 
-_______________________________________
+# 🔍 Key Insights
 
-4️⃣ Dashboard Development
+## 💳 Credit Score Analysis
 
-Built an interactive Power BI dashboard enabling stakeholders to explore loan performance and customer risk profiles using filters and KPIs.
+Borrowers with stronger credit scores consistently demonstrate lower default risk and higher repayment reliability.
 
-________________________________________
+### Business Insight
 
-📊 Dashboard KPIs
+Credit score remains one of the strongest indicators of future repayment performance.
 
-The dashboard provides key business metrics including:
+### Recommendation
 
-•	👥 Total Customers
+Increase emphasis on credit score during underwriting while combining it with additional behavioural indicators.
 
-•	💰 Total Loan Amount
+---
 
-•	📉 Default Rate
+## 💰 Income Analysis
 
-•	📈 Approval Rate
+Higher-income borrowers generally exhibit stronger repayment capacity.
 
-•	💳 Average Credit Score
+### Business Insight
 
-•	💵 Average Annual Income
+Income alone should not determine approval decisions but provides valuable context when combined with debt obligations and credit history.
 
-________________________________________
+### Recommendation
 
-📈 Dashboard Analysis
+Incorporate affordability assessments into lending decisions.
 
-💳 Credit Score Analysis
+---
 
-Evaluates customer creditworthiness based on credit score ranges.
+## ⚠️ Loan Default Behaviour
 
-Business Value
+The analysis identifies clear borrower characteristics associated with increased default probability.
 
-•	Improve lending decisions
+### Business Insight
 
-•	Reduce default exposure
+High-risk borrowers can be identified before loan approval using historical lending patterns.
 
-•	Enhance risk assessment
+### Recommendation
 
-________________________________________
+Implement risk-based lending strategies and enhanced due diligence for higher-risk applications.
 
-💰 Income Analysis
+---
 
-Examines borrower income levels.
+## 👥 Customer Segmentation
 
-Business Value
+Customer segmentation highlights distinct borrower groups with varying levels of credit risk.
 
-•	Assess repayment capacity
+### Business Value
 
-•	Support loan affordability analysis
+Segmenting customers enables:
 
-•	Improve lending policies
+- Better pricing strategies
+- Targeted risk management
+- Improved lending decisions
+- More accurate portfolio monitoring
 
-________________________________________
+---
 
-📉 Loan Default Analysis
+## 📈 Portfolio Performance
 
-Measures default trends across customer groups.
+The dashboard provides a consolidated view of portfolio health, enabling management to monitor exposure across multiple borrower segments.
 
-Business Value
+### Business Value
 
-•	Identify high-risk borrowers
+Continuous portfolio monitoring supports earlier identification of deteriorating credit quality.
 
-•	Improve portfolio quality
+---
 
-•	Reduce financial losses
+# 💼 Business & Accounting Impact
 
-________________________________________
+From a business perspective, effective credit risk management enables financial institutions to:
 
-👨‍💼 Employment Analysis
+- Reduce loan default losses
+- Improve lending profitability
+- Increase portfolio quality
+- Enhance regulatory compliance
+- Improve capital allocation
+- Strengthen long-term financial sustainability
 
-Compares loan performance by employment status.
+From an accounting perspective, improved credit assessment contributes to:
 
-Business Value
+- Lower Expected Credit Loss (ECL) provisions
+- Reduced impairment expenses
+- Improved asset quality
+- Higher net profit
+- Stronger balance sheet performance
+- Improved retained earnings
+- Better return on assets (ROA)
 
-•	Evaluate employment stability
+---
 
-•	Improve borrower assessment
-
-•	Reduce lending risk
-
-________________________________________
-
-💵 Loan Amount Analysis
-
-Examines approved loan values.
-
-Business Value
-
-•	Monitor lending exposure
-
-•	Improve portfolio management
-
-•	Support strategic planning
-
-________________________________________
-
-💡 Key Insights
-
-The analysis revealed several important findings:
-
-✅ Customers with higher credit scores consistently demonstrated lower default rates.
-
-✅ Borrowers with higher annual income generally qualified for larger loan amounts and showed stronger repayment capacity.
-
-✅ Debt-to-income ratio was an important indicator of potential default risk.
-
-✅ Certain loan purposes carried higher default rates than others.
-
-✅ Employment stability positively influenced loan approval outcomes.
-
-✅ High-risk customer segments can be identified early using a combination of financial indicators.
-
-________________________________________
-
-📌 Business Recommendations
+# 💡 Strategic Recommendations
 
 Based on the analysis:
 
-✔️ Prioritise applicants with strong credit scores during loan assessment.
+- Strengthen borrower affordability assessments.
+- Prioritise credit score and repayment history during underwriting.
+- Monitor high-risk customer segments using automated dashboards.
+- Introduce risk-based loan pricing.
+- Review lending policies for higher-risk loan purposes.
+- Continuously monitor portfolio performance using Power BI.
+- Improve early-warning systems for potential defaults.
 
-✔️ Strengthen affordability checks using debt-to-income ratios.
+---
 
-✔️ Develop risk-based pricing strategies.
+# 📊 Skills Demonstrated
 
-✔️ Introduce enhanced monitoring for high-risk borrowers.
+## Data Analytics
 
-✔️ Encourage early intervention for customers showing signs of financial distress.
+- SQL
+- Data Cleaning
+- Data Validation
+- Exploratory Data Analysis (EDA)
+- KPI Reporting
 
-✔️ Get information from customers about home ownership and analyse it. Homeowners generally presented lower credit risk than non-homeowners.
+## Business Intelligence
 
-✔️ Regularly review lending policies using dashboard insights.
+- Power BI
+- Power Query
+- DAX
+- Interactive Dashboard Development
+- Executive Reporting
 
-_______________________________________
+## Financial Analytics
 
-💼 Accounting & Business Impact
+- Credit Risk Assessment
+- Loan Portfolio Analysis
+- Customer Segmentation
+- Risk Modelling
+- Financial Performance Analysis
 
-From an accounting and financial reporting perspective, effective credit risk assessment supports:
+## Business Analysis
 
-📉 Balance Sheet
+- Decision Support
+- Risk Management
+- Business Storytelling
+- Executive Communication
+- Strategic Recommendations
 
-•	Lower impairment losses on loans and receivables
+---
 
-•	Higher quality loan assets
+# 📁 Repository Structure
 
-•	Improved asset valuation
-
-•	Reduced provision for bad debts
-
-📊 Income Statement
-
-•	Lower credit losses
-
-•	Improved net profit
-
-•	Increased interest income from performing loans
-
-💰 Cash Flow
-
-•	Higher loan repayment rates
-
-•	Improved liquidity
-
-•	Better cash collection
-
-Overall, robust credit risk management strengthens financial stability and supports sustainable business growth.
-
-________________________________________
-
-📷 Dashboard Preview
-
-<img width="932" height="730" alt="Screenshot Dashboard Credit Assessment Power BI" src="https://github.com/user-attachments/assets/b9b1643b-f1b6-4ea9-a8a1-e0a9a896eb9f" />
-
- 
-Images/
-│── Credit Risk Dashboard.png
-
-________________________________________
-
-📁 Repository Structure
-
-Credit-Risk-Assessment/
+```text
+Credit-Risk-Assessment
 │
-
-├── Dataset/
-│   └── Credit Risk Dataset.csv
-│
-
-├── SQL/
-│   └── Screenshot SQL Extraction.png
-│
-
-├── Power BI/
-│   └── Credit Risk Assessment.pbix
-│
-
-├── Images/
-│   └── Dashboard Screenshot.png
-│
-
-├── Documentation/
-│   └── Credit Risk Assessment Report.pdf
-│
-
+├── Dataset
+├── SQL Query Screenshot
+├── Power BI Dashboard
+├── Dashboard Screenshot
+├── Project Report
 └── README.md
-__
-______________________________________
+```
 
-🚀 Skills Demonstrated
+---
 
-This project demonstrates proficiency in:
+# 🚀 Future Enhancements
 
-•	🗄️ SQL Query Writing
+Potential improvements include:
 
-•	📊 Data Cleaning
+- Machine Learning Default Prediction Model
+- Probability of Default (PD) Modelling
+- Expected Credit Loss (IFRS 9) Modelling
+- Customer Lifetime Value Analysis
+- Credit Portfolio Stress Testing
+- Automated Power BI Service Reporting
 
-•	📈 Data Analysis
+---
 
-•	📉 Data Modelling
+# 👨‍💼 About the Author
 
-•	📊 Microsoft Power BI
+## Dayo Rex Afariogun
 
-•	📌 KPI Reporting
+**Business Analyst | Financial Data Analytics | Business Intelligence**
 
-•	💳 Credit Risk Assessment
+I specialise in transforming financial and operational data into strategic business insights using SQL, Python, Power BI, and Microsoft Excel. With a strong foundation in Accounting and over 14 years of business leadership experience, I combine technical analytics with commercial understanding to support smarter, data-driven decisions.
 
-•	📉 Loan Default Analysis
+📧 **Email:** dayorex7@gmail.com
 
-•	💰 Financial Analytics
+💼 **LinkedIn:** linkedin.com/in/dayo-afariogun
 
-•	📊 Dashboard Design
+💻 **GitHub:** github.com/dayo-data-analyst
 
-•	📢 Business Storytelling
+---
 
-•	📋 Executive Reporting
+## ⭐ If you found this project interesting
 
-•	🎯 Decision Support
-
-________________________________________
-
-👨‍💻 About Me
-
-Dayo Rex Afariogun
-
-Data Analyst with practical experience in transforming raw data into actionable business insights using:
-
-•	🗄️ SQL
-
-•	🐍 Python
-
-•	📊 Microsoft Power BI
-
-•	📈 Microsoft Advanced Excel
-
-I have B.Sc. in Accounting and strong experience in Business Intelligence, Financial Analytics, Commercial Analytics, Risk Analytics, and Data-Driven Decision Making. I am actively seeking Data Analyst opportunities in Ireland, where I can apply my analytical skills to solve business problems and deliver measurable values.
-
-📬 Connect with Me
-
-•	💼 LinkedIn: https://www.linkedin.com/in/dayo-afariogun 
-
-•	💻 GitHub: https://github.com/dayo-data-analyst
-
-•	📧 Email: dayorex7@gmail.com
-
-________________________________________
-
-⭐ Thank you for visiting this repository!
-
-If you found this project interesting or helpful, please consider starring ⭐ the repository or connecting with me on LinkedIn or via Email. Feedback, suggestions are always welcome.
-
-
+Feel free to ⭐ **star the repository**, explore my other analytics projects, or connect with me on LinkedIn.
